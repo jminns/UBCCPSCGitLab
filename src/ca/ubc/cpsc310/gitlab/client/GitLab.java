@@ -69,11 +69,6 @@ public class GitLab implements EntryPoint {
 		
 	}
 	
-	/*
-	* this comment was done by user 1
-	* More comments 
-	*/
-	
 	/**
 	 * Used to display users 
 	 * @param users
