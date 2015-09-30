@@ -22,8 +22,6 @@ public class User implements IUser {
 	private final String SHOPPINGCART = "SHOPPINGCART";
 	
 	private Map<String, Object> data = new HashMap<String, Object>();
-
-	//	private static final long serialVersionUID = -4678920906536621479L;
 	
 	private List<ProductItem> shoppingCart = new ArrayList<ProductItem>();
 	private List<ProductItem> wishList = new ArrayList<ProductItem>();
@@ -40,25 +38,21 @@ public class User implements IUser {
 	@Override
 	public String getLanguage() {
 		return (String) data.get(LANG);
-//		return language;
 	}
 
 	@Override
 	public String getName() {
 		return (String) data.get(NAME);
-//		return name;
 	}
 
 	@Override
 	public List<ProductItem> getWishList() {
 		return (List<ProductItem>) data.get(WISHLIST);
-//		return wishList;
 	}
 
 	@Override
 	public List<ProductItem> getShoppingCart() {
 		return (List<ProductItem>) data.get(SHOPPINGCART);
-//		return shoppingCart;
 	}
 
 	@Override
