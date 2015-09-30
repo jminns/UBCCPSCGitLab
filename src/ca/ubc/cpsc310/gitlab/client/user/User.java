@@ -13,7 +13,7 @@ import ca.ubc.cpsc310.gitlab.client.products.ProductItem;
 public class User implements IUser {
 
 	/**
-	 * 
+	 * Private variables
 	 */
 	private static final long serialVersionUID = -6968277136462621810L;
 	private final String LANG = "LANG";
